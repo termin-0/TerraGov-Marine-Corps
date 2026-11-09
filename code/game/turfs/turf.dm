@@ -627,7 +627,7 @@
 	var/area/ourarea = loc
 	if(ourarea.area_flags & DISALLOW_SILO)
 		if(!silent)
-			to_chat(builder, span_warning("We cannot build a silo in this area!"))
+			to_chat(builder, span_warning("Queen Mother prohibits us from building a silo in this area!"))
 		return FALSE
 	return TRUE
 
